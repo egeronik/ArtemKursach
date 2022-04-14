@@ -42,7 +42,7 @@ public class Main {
                             sal = scanner.nextDouble();
                             System.out.print("WorkGroup:");
                             wg = scanner.next();
-                            company.addEmployee(new Worker(sal, wh, name, ws), wg);
+                            company.addEmployee(new worker(sal, wh, name, ws), wg);
                         }
                         case 2 -> {
                             System.out.print("Name:");
@@ -79,9 +79,9 @@ public class Main {
                 }
                 case 3 -> {
                     System.out.println("Name:");
-                    String name = scanner.nextLine();
+                    String name = scanner.next();
                     System.out.println("WorkGroup");
-                    String wg = scanner.nextLine();
+                    String wg = scanner.next();
                     company.removeEmployee(name,wg);
                 }
                 default -> {

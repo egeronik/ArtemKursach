@@ -1,6 +1,6 @@
 package com.company;
 
-public class employee {
+abstract class employee {
     double salary;
     double workHours; //Количество рабочих часов
     String name;

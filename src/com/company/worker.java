@@ -1,9 +1,9 @@
 package com.company;
 
-public class Worker extends employee {
+public class worker extends employee {
     String workspace;
 
-    public Worker(double salary, double workHours, String name, String workspace) {
+    public worker(double salary, double workHours, String name, String workspace) {
         super(salary, workHours, name);
         this.workspace = workspace;
     }
